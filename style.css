@@ -31,6 +31,26 @@ nav {
   border: 1px solid #bfbfbf;
 }
 
-#quantity-input, #price-input{
+#quantity-input,
+#price-input {
   width: 3rem;
+}
+
+#add-item-button {
+  border: unset;
+  background-color: #00805a;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+#items-div {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.item {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  background-color: #eaeaea;
+  margin-bottom: 0.5rem;
 }
