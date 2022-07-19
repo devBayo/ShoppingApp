@@ -2,3 +2,35 @@
   margin: unset;
   padding: unset;
 }
+
+body {
+  background-color: #f2f2f2;
+}
+
+nav {
+  background-color: #00805a;
+  height: 3rem;
+  line-height: 3rem;
+  color: #fff;
+  padding-left: 2rem;
+  margin-bottom: 1rem;
+}
+
+.container {
+  padding: 1rem;
+}
+
+#item-form label {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#item-form input {
+  height: 2rem;
+  text-align: center;
+  border: 1px solid #bfbfbf;
+}
+
+#quantity-input, #price-input{
+  width: 3rem;
+}
