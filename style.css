@@ -54,3 +54,35 @@ nav {
   background-color: #eaeaea;
   margin-bottom: 0.5rem;
 }
+
+.checkbox {
+  height: 100%;
+  width: 2.5rem;
+}
+
+.item-info {
+  text-align: center;
+}
+
+.delete-button {
+  margin-left: auto;
+  border: unset;
+  background-color: #b10000;
+  color: #fff;
+  font-size: 0.8rem;
+  width: 2.5rem;
+  height: 100%;
+}
+
+.delete-button:active {
+  margin-top: 3px;
+}
+
+.purchased {
+  background-color: #00805a;
+  color: #fff;
+}
+
+.purchased p {
+  text-decoration: line-through;
+}
