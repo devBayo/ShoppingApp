@@ -9,6 +9,9 @@
     <link rel="icon" href="./assets/icon-192.png" />
   </head>
   <body>
+    <nav>
+      <p>My List</p>
+    </nav>
     <div class="container">
       <form id="item-form">
         <label>
@@ -23,8 +26,11 @@
           Price:
           <input type="text" id="price-input" />
         </label>
+        <button type="submit" id="add-item-button">Add item</button>
       </form>
     </div>
+
+    <div id="items-div"></div>
     <script src="./script.js"></script>
   </body>
 </html>
