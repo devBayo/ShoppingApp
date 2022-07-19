@@ -8,7 +8,8 @@ body {
 }
 
 nav {
-  background-color: #00805a;
+  /* background-color: #00805a; */
+  background-color: red;
   height: 3rem;
   line-height: 3rem;
   color: #fff;
